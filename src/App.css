@@ -1,0 +1,64 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.app {
+  min-height: 100vh;
+  background-color: #001d3d;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+ 
+}
+
+.heading-primary {
+  margin-top: 20px;
+  font-size: 40px;
+  
+}
+.form-container {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+form {
+  border-radius: 9px;
+  overflow: hidden;
+}
+
+form input {
+  padding: 5px 10px;
+  font-size: 16px;
+  width: 300px;
+  outline:none;
+}
+
+.btn {
+  cursor: pointer;
+  width: 40px;
+}
+
+.btn-search {
+  height: 100%;
+  margin: 0;
+}
+
+.btn-shuffle {
+  border: none;
+  border-radius: 7px;
+}
+
+.message {
+  font-size: 18px;
+}
+
+.meal-container {
+  display: grid;
+  grid-template-columns: repeat(4, 170px);
+  grid-gap: 30px;
+}
